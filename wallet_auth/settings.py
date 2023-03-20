@@ -141,7 +141,7 @@ GRAPHENE = {
     ],
 }
 
-CORS_ORIGIN_WHITELIST = ["http://127.0.0.1:3000", "https://ennet.netlify.app"]
+CORS_ORIGIN_WHITELIST = ["https://ennet.netlify.app"]
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
