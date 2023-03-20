@@ -6,15 +6,6 @@ from datetime import datetime
 
 # Create your models here.
 
-# class UserProfile(models.Model):
-#     user = models.OneToOneField(User, on_delete=models.CASCADE)
-#     verified = models.BooleanField(default=False)
-#     avatar = models.ImageField()
-
-#     def __repr__(self):
-#         return self.user
-
-
 class Funds(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     current_balance = models.FloatField(default= 0.00)
