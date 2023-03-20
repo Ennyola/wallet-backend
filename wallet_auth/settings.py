@@ -25,6 +25,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 print(os.environ.get('DEBUG'))
+print(os.environ.get("DB_ENGINE"))
+print(os.environ.get("DB_NAME"))
+print(os.environ.get("DB_USER"))
+print(os.environ.get("DB_PASSWORD"))
 DEBUG = os.environ.get('DEBUG')
 
 
