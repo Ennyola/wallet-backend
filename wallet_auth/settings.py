@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = "gx2m=*akt+5k-^fz5m9r^faqug1(xe%%z)cw-y4&gs%et(kaaa"
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -82,10 +82,10 @@ WSGI_APPLICATION = "wallet_auth.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": os.environ.get("DB_NAME"),
-        "USER": os.environ.get("DB_USER"),
-        "PASSWORD": os.environ.get("DB_PASSWORD"),
-        "HOST": os.environ.get("DB_HOST"),
+        "NAME": "ayybqrsc",
+        "USER": "ayybqrsc",
+        "PASSWORD": "JLEf79vfMm0r3HHQFqLept0EwY5lRGq0",
+        "HOST": "suleiman.db.elephantsql.com",
     }
 }
 
